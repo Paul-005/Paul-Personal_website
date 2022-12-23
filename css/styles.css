@@ -56,7 +56,18 @@ body {
 
 @media only screen and (max-width: 992px) {
   .blob {
-    display: none;
+    height: 60px;
+    width: 60px;
+    background-color: rgba(71, 42, 214, 0.8);
+    border-radius: 50%;
+    position: absolute;
+    left: 70%;
+    top: 55%;
+    z-index: -1;
+  }
+
+  .logo {
+    z-index: 1;
   }
 
   .avatar {
